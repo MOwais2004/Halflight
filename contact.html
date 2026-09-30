@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Halflight</title>
+<meta name="description" content="Start a project with Halflight, an independent studio in Lisbon.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'%3E%3Ccircle cx='14' cy='14' r='12.6' fill='white' stroke='%23141414' stroke-width='1.6'/%3E%3Cpath d='M1.4 14h25.2' stroke='%23141414' stroke-width='1.6'/%3E%3Cpath d='M8.6 14a5.4 5.4 0 0 1 10.8 0z' fill='%23141414'/%3E%3C/svg%3E">
+<link href="https://api.fontshare.com/v2/css?f[]=switzer@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
+</head>
+<body data-page="contact">
+<main>
+  <header class="ph-head">
+    <p class="sm mute">Contact</p>
+    <h1 class="stmt--xl" data-words>Tell us where you are, and where you want to be. We reply within one working day — usually with questions.</h1>
+  </header>
+  <div class="ct">
+    <aside class="ct__side">
+      <dl class="kv rv">
+        <div><dt>New business</dt><dd><a class="ul" href="mailto:hello@halflight.studio">hello@halflight.studio</a></dd></div>
+        <div><dt>Phone</dt><dd>+351 21 000 0000</dd></div>
+        <div><dt>Lisbon studio</dt><dd>Rua das Flores 28, 2º, 1200-195 Lisboa</dd></div>
+        <div><dt>Currently booking</dt><dd>Projects starting Q1 2027</dd></div>
+      </dl>
+      <figure class="ri"><img src="media/studio-3.webp" alt="The Halflight storefront on Rua das Flores at dusk" loading="lazy"></figure>
+    </aside>
+    <div class="ct__form">
+      <form class="form" novalidate>
+        <fieldset class="opts">
+          <legend>I’m interested in</legend>
+          <label><input type="checkbox" name="svc" value="brand"><span>Brand</span></label>
+          <label><input type="checkbox" name="svc" value="web"><span>Web design</span></label>
+          <label><input type="checkbox" name="svc" value="dev"><span>Development</span></label>
+          <label><input type="checkbox" name="svc" value="marketing"><span>Marketing</span></label>
+          <label><input type="checkbox" name="svc" value="content"><span>Content</span></label>
+        </fieldset>
+        <fieldset class="opts">
+          <legend>Budget</legend>
+          <label><input type="radio" name="budget" value="25"><span>Under €25k</span></label>
+          <label><input type="radio" name="budget" value="50"><span>€25–50k</span></label>
+          <label><input type="radio" name="budget" value="100"><span>€50–100k</span></label>
+          <label><input type="radio" name="budget" value="100+"><span>€100k+</span></label>
+        </fieldset>
+        <div class="fields">
+          <div class="field"><input id="f-name" name="name" required autocomplete="name" placeholder=" "><label for="f-name">Your name</label></div>
+          <div class="field"><input id="f-mail" name="email" type="email" required autocomplete="email" placeholder=" "><label for="f-mail">Email</label></div>
+        </div>
+        <div class="field"><input id="f-co" name="company" autocomplete="organization" placeholder=" "><label for="f-co">Company</label></div>
+        <div class="field"><textarea id="f-msg" name="message" rows="4" required placeholder=" "></textarea><label for="f-msg">Tell us about the project</label></div>
+        <div class="form__end"><button class="btn" type="submit" data-cursor="Send">Send enquiry <span aria-hidden="true">→</span></button><p class="form__msg" role="status" aria-live="polite"></p></div>
+      </form>
+      <div class="faq">
+        <details><summary>How long does a project take?</summary><p>Most websites take eight to twelve weeks from kickoff to launch; brand projects six to ten. You get a week-by-week plan before we start.</p></details>
+        <details><summary>Do you work with early-stage companies?</summary><p>Yes — about a third of our clients are founders raising their first or second round. We scope carefully so the work fits the stage.</p></details>
+        <details><summary>Can you work with our in-house team?</summary><p>Often we do. We can lead, or slot into your team with shared tools and weekly reviews.</p></details>
+        <details><summary>What happens after launch?</summary><p>Most clients keep us on a monthly retainer for campaigns, SEO and iteration. There is no lock-in.</p></details>
+      </div>
+    </div>
+  </div>
+</main>
+<script src="https://unpkg.com/lenis@1.3.26/dist/lenis.min.js"></script>
+<script src="site.js"></script>
+</body>
+</html>
