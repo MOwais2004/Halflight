@@ -1,5 +1,7 @@
 # Halflight
 
+Live: https://mowais2004.github.io/Halflight/
+
 A multi-page website for a fictional independent creative studio in Lisbon (brand, web, development, marketing, content). Built with plain HTML, CSS and vanilla JS: no framework, no build step.
 
 > All names, clients, figures, awards, news and quotes are fictional placeholders. Images are AI-generated for this project.
